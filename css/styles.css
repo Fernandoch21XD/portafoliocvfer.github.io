@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #000;
+}
+
+.welcome-section {
+    text-align: center;
+    background-color: #f4e04d;
+    padding: 50px 20px;
+}
+
+.welcome-section h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.welcome-section h2 {
+    color: #d62b2b;
+    font-size: 48px;
+}
+
+.welcome-section button {
+    background-color: #d62b2b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.benefits-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
+
+.benefit {
+    text-align: center;
+    width: 30%;
+}
+
+.benefit img {
+    width: 50px;
+    height: 50px;
+}
+
+.benefit h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.benefit p {
+    font-size: 14px;
+    color: #666;
+}
+
+.original-recipe {
+    text-align: center;
+    background-color: #f8e8d4;
+    padding: 30px 20px;
+}
+
+.original-recipe h2 {
+    color: #d62b2b;
+    font-size: 36px;
+}
+
+/* Estilos adicionales */
+.favoritos {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.favoritos h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.favoritos .producto {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.favoritos .producto img {
+    width: 100%;
+    height: auto;
+}
+
+.favoritos .producto p {
+    font-size: 16px;
+    color: #000;
+}
+
+.especial {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.especial h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.especial-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.especial .texto {
+    width: 50%;
+    padding: 20px;
+}
+
+.especial .texto h3 {
+    font-size: 22px;
+    color: #d62b2b;
+}
+
+.especial .texto p {
+    font-size: 14px;
+    color: #666;
+}
+
+.especial img {
+    width: 40%;
+    height: auto;
+}
+
+.entrega {
+    padding: 50px 20px;
+    background-color: #f4e04d;
+    text-align: center;
+}
+
+.entrega h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.entrega p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.entrega button {
+    background-color: #d62b2b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.instagram {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.instagram h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.instagram .galeria {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram .galeria img {
+    width: 24%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contacto {
+    width: 45%;
+    text-align: left;
+}
+
+.contacto h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contacto input, .contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contacto button {
+    background-color: #d62b2b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.horario {
+    width: 45%;
+    text-align: left;
+}
+
+.horario h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.horario p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Estilo para pantallas pequeñas */
+@media (max-width: 768px) {
+    .contacto, .horario {
+        width: 100%;
+    }
+}
